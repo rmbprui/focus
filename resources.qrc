@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/cog.png</file>
+        <file>img/focus.png</file>
+        <file>img/edit.png</file>
+        <file>img/exit.png</file>
+        <file>img/search.png</file>
+        <file>img/send.png</file>
+        <file>img/logout.png</file>
+        <file>img/profile.png</file>
+        <file>img/home.png</file>
+        <file>img/avatar.png</file>
+        <file>img/refreshing.png</file>
+        <file>img/add.png</file>
+        <file>img/messenger.png</file>
+        <file>img/group.png</file>
+        <file>img/add-user.png</file>
+        <file>img/remove.png</file>
+    </qresource>
+</RCC>

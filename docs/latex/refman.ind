@@ -1,0 +1,150 @@
+\begin{theindex}
+
+  \item {addContactByUsername}
+    \subitem {SQL}, \hyperpage{25}
+  \item {addGroup}
+    \subitem {SQL}, \hyperpage{25}
+  \item {addSubscription}
+    \subitem {SQL}, \hyperpage{26}
+  \item {AddUser}, \hyperpage{7}
+    \subitem {AddUser}, \hyperpage{8}
+  \item {addUser}
+    \subitem {SQL}, \hyperpage{26}
+  \item {areContacts}
+    \subitem {SQL}, \hyperpage{26}
+  \item {Auth}, \hyperpage{8}
+    \subitem {Auth}, \hyperpage{9}
+    \subitem {validateLogin}, \hyperpage{10}
+    \subitem {validateRegister}, \hyperpage{10}
+
+  \indexspace
+
+  \item {Chatroom}, \hyperpage{11}
+    \subitem {Chatroom}, \hyperpage{11}
+  \item {ChatroomWindow}, \hyperpage{12}
+    \subitem {ChatroomWindow}, \hyperpage{13}
+    \subitem {loadChatroom}, \hyperpage{13}
+
+  \indexspace
+
+  \item {EditProfile}, \hyperpage{14}
+    \subitem {EditProfile}, \hyperpage{15}
+
+  \indexspace
+
+  \item {getGroupsByTopic}
+    \subitem {SQL}, \hyperpage{27}
+  \item {getMembersByTopic}
+    \subitem {SQL}, \hyperpage{27}
+  \item {getMessageById}
+    \subitem {SQL}, \hyperpage{27}
+  \item {getMessagesByTopic}
+    \subitem {SQL}, \hyperpage{28}
+  \item {getSubscriptionsByUser}
+    \subitem {SQL}, \hyperpage{28}
+  \item {getUserByEmail}
+    \subitem {SQL}, \hyperpage{28}
+  \item {getUserByUsername}
+    \subitem {SQL}, \hyperpage{29}
+  \item {getUserContacts}
+    \subitem {SQL}, \hyperpage{29}
+  \item {getUserDms}
+    \subitem {SQL}, \hyperpage{30}
+
+  \indexspace
+
+  \item {isGroupAdmin}
+    \subitem {SQL}, \hyperpage{30}
+  \item {isValidLoginByEmail}
+    \subitem {SQL}, \hyperpage{30}
+  \item {isValidLoginByUsername}
+    \subitem {SQL}, \hyperpage{31}
+
+  \indexspace
+
+  \item {loadChatroom}
+    \subitem {ChatroomWindow}, \hyperpage{13}
+
+  \indexspace
+
+  \item {MainWindow}, \hyperpage{15}
+    \subitem {MainWindow}, \hyperpage{16}
+    \subitem {newChatroomWindow}, \hyperpage{17}
+  \item {Message}, \hyperpage{17}
+    \subitem {Message}, \hyperpage{18}
+  \item {Mosquitto}, \hyperpage{18}
+    \subitem {Mosquitto}, \hyperpage{19}
+    \subitem {publish}, \hyperpage{20}
+    \subitem {subscribe}, \hyperpage{20}
+
+  \indexspace
+
+  \item {newChatroomWindow}
+    \subitem {MainWindow}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Profile}, \hyperpage{20}
+    \subitem {Profile}, \hyperpage{21}
+  \item {publish}
+    \subitem {Mosquitto}, \hyperpage{20}
+
+  \indexspace
+
+  \item {removeContact}
+    \subitem {SQL}, \hyperpage{31}
+  \item {removeGroup}
+    \subitem {SQL}, \hyperpage{31}
+  \item {removeSubscriptions}
+    \subitem {SQL}, \hyperpage{32}
+
+  \indexspace
+
+  \item {SaveGroup}, \hyperpage{22}
+    \subitem {SaveGroup}, \hyperpage{23}
+  \item {SQL}, \hyperpage{24}
+    \subitem {addContactByUsername}, \hyperpage{25}
+    \subitem {addGroup}, \hyperpage{25}
+    \subitem {addSubscription}, \hyperpage{26}
+    \subitem {addUser}, \hyperpage{26}
+    \subitem {areContacts}, \hyperpage{26}
+    \subitem {getGroupsByTopic}, \hyperpage{27}
+    \subitem {getMembersByTopic}, \hyperpage{27}
+    \subitem {getMessageById}, \hyperpage{27}
+    \subitem {getMessagesByTopic}, \hyperpage{28}
+    \subitem {getSubscriptionsByUser}, \hyperpage{28}
+    \subitem {getUserByEmail}, \hyperpage{28}
+    \subitem {getUserByUsername}, \hyperpage{29}
+    \subitem {getUserContacts}, \hyperpage{29}
+    \subitem {getUserDms}, \hyperpage{30}
+    \subitem {isGroupAdmin}, \hyperpage{30}
+    \subitem {isValidLoginByEmail}, \hyperpage{30}
+    \subitem {isValidLoginByUsername}, \hyperpage{31}
+    \subitem {removeContact}, \hyperpage{31}
+    \subitem {removeGroup}, \hyperpage{31}
+    \subitem {removeSubscriptions}, \hyperpage{32}
+    \subitem {updateGroup}, \hyperpage{32}
+    \subitem {updateUser}, \hyperpage{32}
+    \subitem {validateTopic}, \hyperpage{32}
+  \item {subscribe}
+    \subitem {Mosquitto}, \hyperpage{20}
+
+  \indexspace
+
+  \item {updateGroup}
+    \subitem {SQL}, \hyperpage{32}
+  \item {updateUser}
+    \subitem {SQL}, \hyperpage{32}
+  \item {User}, \hyperpage{33}
+    \subitem {User}, \hyperpage{33}
+
+  \indexspace
+
+  \item {validateLogin}
+    \subitem {Auth}, \hyperpage{10}
+  \item {validateRegister}
+    \subitem {Auth}, \hyperpage{10}
+  \item {validateTopic}
+    \subitem {SQL}, \hyperpage{32}
+
+\end{theindex}

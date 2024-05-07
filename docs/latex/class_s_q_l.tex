@@ -1,0 +1,486 @@
+\hypertarget{class_s_q_l}{}\doxysection{S\+QL Class Reference}
+\label{class_s_q_l}\index{SQL@{SQL}}
+
+
+The \mbox{\hyperlink{class_s_q_l}{S\+QL}} class.  
+
+
+
+
+{\ttfamily \#include $<$sql.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_s_q_l_ab6a6b70a8fad45c14460c7f8ab2e040b}\label{class_s_q_l_ab6a6b70a8fad45c14460c7f8ab2e040b}} 
+\mbox{\hyperlink{class_s_q_l_ab6a6b70a8fad45c14460c7f8ab2e040b}{S\+QL}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{class_s_q_l}{S\+QL}} class. \end{DoxyCompactList}\item 
+Q\+String \mbox{\hyperlink{class_s_q_l_a2b203a9b5f211ed87f97b28513079568}{validate\+Topic}} (Q\+String topic)
+\begin{DoxyCompactList}\small\item\em validate\+Topic -\/ validates the topic name \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_q_l_aa15a5f52e7c93fbd74b07a9afea1e523}{add\+Group}} (Q\+String name, Q\+String topic, \mbox{\hyperlink{class_user}{User}} user)
+\begin{DoxyCompactList}\small\item\em add\+Group -\/ adds a new group to the database \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_q_l_ab8bc1188d596bc862764acffcb6162df}{add\+User}} (\mbox{\hyperlink{class_user}{User}} $\ast$user, Q\+String password\+Hash)
+\begin{DoxyCompactList}\small\item\em add\+User -\/ adds a new user to the database \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_q_l_a5b274d70bc27cf6c81d610b84d922d05}{add\+Contact\+By\+Username}} (\mbox{\hyperlink{class_user}{User}} $\ast$user, Q\+String contact\+Username)
+\begin{DoxyCompactList}\small\item\em add\+Contact\+By\+Username -\/ connects the user to the requested contact \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_q_l_a241d733054b11f552d2e5b0b6ae85e62}\label{class_s_q_l_a241d733054b11f552d2e5b0b6ae85e62}} 
+int {\bfseries add\+Message} (\mbox{\hyperlink{class_message}{Message}} \&message)
+\item 
+void \mbox{\hyperlink{class_s_q_l_a60e52569efac3c3f2960d55b574d7104}{add\+Subscription}} (Q\+String topic, \mbox{\hyperlink{class_user}{User}} $\ast$user)
+\begin{DoxyCompactList}\small\item\em add\+Subscription -\/ stores subscription in database \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_q_l_acf808e9b3ea0f6b8c6e3b3f5301101c4}{update\+Group}} (\mbox{\hyperlink{class_chatroom}{Chatroom}} $\ast$group)
+\begin{DoxyCompactList}\small\item\em update\+Group -\/ updates the group information \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_q_l_a23279a7f26932f5638e3f7f3f6c82102}{update\+User}} (\mbox{\hyperlink{class_user}{User}} $\ast$user)
+\begin{DoxyCompactList}\small\item\em update\+User -\/ updates the user information \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_q_l_a33875eeb7b04601694b077dcc4e83f30}{remove\+Subscriptions}} (Q\+String topic)
+\begin{DoxyCompactList}\small\item\em remove\+Subscriptions -\/ removes the stored subscription from the database \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_q_l_a90903f4cd5ff198c2aa53cb41f0b5a52}{remove\+Contact}} (\mbox{\hyperlink{class_user}{User}} $\ast$current\+User, \mbox{\hyperlink{class_user}{User}} $\ast$user)
+\begin{DoxyCompactList}\small\item\em remove\+Contact -\/ removes the contact for respective user \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_s_q_l_ae511a452035c26ce9dfd6f5acfd3cd64}{remove\+Group}} (\mbox{\hyperlink{class_chatroom}{Chatroom}} $\ast$group)
+\begin{DoxyCompactList}\small\item\em remove\+Group -\/ removes group information from database \end{DoxyCompactList}\item 
+Q\+Vector$<$ Q\+String $>$ \mbox{\hyperlink{class_s_q_l_a2011b4b68ecbec39f74689ca2f76fcf7}{get\+Subscriptions\+By\+User}} (\mbox{\hyperlink{class_user}{User}} $\ast$user)
+\begin{DoxyCompactList}\small\item\em get\+Subscriptions\+By\+User -\/ returns subscriptions for respective user \end{DoxyCompactList}\item 
+Q\+Vector$<$ \mbox{\hyperlink{class_message}{Message}} $>$ \mbox{\hyperlink{class_s_q_l_a48b812407b764d668fe87c384392f36d}{get\+Messages\+By\+Topic}} (Q\+String topic, int limit=30)
+\begin{DoxyCompactList}\small\item\em get\+Messages\+By\+Topic -\/ returns the last 30 messages for respective topic \end{DoxyCompactList}\item 
+Q\+Vector$<$ \mbox{\hyperlink{class_user}{User}} $>$ \mbox{\hyperlink{class_s_q_l_a2a520dc3e9eabb1d5b0e242a06612c19}{get\+User\+Contacts}} (\mbox{\hyperlink{class_user}{User}} $\ast$user)
+\begin{DoxyCompactList}\small\item\em get\+User\+Contacts -\/ returns vector with the user\textquotesingle{}s contacts \end{DoxyCompactList}\item 
+Q\+Vector$<$ \mbox{\hyperlink{class_chatroom}{Chatroom}} $>$ \mbox{\hyperlink{class_s_q_l_a3d9201ec3d343ee94f3495d108e7d21d}{get\+User\+Dms}} (\mbox{\hyperlink{class_user}{User}} $\ast$user)
+\begin{DoxyCompactList}\small\item\em get\+User\+Dms -\/ returns the direct messages of the respective user \end{DoxyCompactList}\item 
+Q\+Vector$<$ \mbox{\hyperlink{class_chatroom}{Chatroom}} $>$ \mbox{\hyperlink{class_s_q_l_ae71846bd44ba88ddeea504738f2bed2d}{get\+Groups\+By\+Topic}} (Q\+String topic)
+\begin{DoxyCompactList}\small\item\em get\+Groups\+By\+Topic -\/ returns the repective user\textquotesingle{}s groups \end{DoxyCompactList}\item 
+Q\+Vector$<$ \mbox{\hyperlink{class_user}{User}} $>$ \mbox{\hyperlink{class_s_q_l_aebf0ed70245b4999ecb2f725daa80000}{get\+Members\+By\+Topic}} (Q\+String topic)
+\begin{DoxyCompactList}\small\item\em get\+Members\+By\+Topic -\/ returns the members subscribe to the respective topic \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_user}{User}} $\ast$ \mbox{\hyperlink{class_s_q_l_a8cfb6cee921922a669a69891ce0c01bd}{get\+User\+By\+Username}} (Q\+String username)
+\begin{DoxyCompactList}\small\item\em get\+User\+By\+Username -\/ returns the user\textquotesingle{}s information by username \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_user}{User}} $\ast$ \mbox{\hyperlink{class_s_q_l_aabd1b6c5dcbf86e562b46a17821c2cdd}{get\+User\+By\+Email}} (Q\+String email)
+\begin{DoxyCompactList}\small\item\em get\+User\+By\+Email -\/ returns the user\textquotesingle{}s information by email \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_message}{Message}} $\ast$ \mbox{\hyperlink{class_s_q_l_ae7a2c1a807d5859e3e7f96b7faf47cb2}{get\+Message\+By\+Id}} (Q\+String id)
+\begin{DoxyCompactList}\small\item\em get\+Message\+By\+Id -\/ returns the message information by id \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_s_q_l_a889a46502483804ce4c9aa23ec5b7490}{is\+Valid\+Login\+By\+Email}} (Q\+String email, Q\+String password\+Hash)
+\begin{DoxyCompactList}\small\item\em is\+Valid\+Login\+By\+Email -\/ checks if the login by email is valid \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_s_q_l_acf4529ce08b1bdf3a9df5303f53a2ee3}{is\+Valid\+Login\+By\+Username}} (Q\+String username, Q\+String password\+Hash)
+\begin{DoxyCompactList}\small\item\em is\+Valid\+Login\+By\+Username -\/ checks if the login by username is valid \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_s_q_l_ab18d8fd09be0008908081efe17ae64de}{is\+Group\+Admin}} (\mbox{\hyperlink{class_user}{User}} $\ast$user, Q\+String topic)
+\begin{DoxyCompactList}\small\item\em is\+Group\+Admin -\/ returns true if the respective user is the group\textquotesingle{}s admin \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_s_q_l_a43504cbaed0d8a3cfa8e56f4713e35bc}{are\+Contacts}} (\mbox{\hyperlink{class_user}{User}} $\ast$current\+User, \mbox{\hyperlink{class_user}{User}} $\ast$user)
+\begin{DoxyCompactList}\small\item\em are\+Contacts -\/ checks if the users are connected \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_s_q_l}{S\+QL}} class. 
+
+This class is used to process mysql features 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_s_q_l_a5b274d70bc27cf6c81d610b84d922d05}\label{class_s_q_l_a5b274d70bc27cf6c81d610b84d922d05}} 
+\index{SQL@{SQL}!addContactByUsername@{addContactByUsername}}
+\index{addContactByUsername@{addContactByUsername}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{addContactByUsername()}{addContactByUsername()}}
+{\footnotesize\ttfamily void S\+Q\+L\+::add\+Contact\+By\+Username (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user,  }\item[{Q\+String}]{contact\+Username }\end{DoxyParamCaption})}
+
+
+
+add\+Contact\+By\+Username -\/ connects the user to the requested contact 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+{\em contact\+Username} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool (true if successfull) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_aa15a5f52e7c93fbd74b07a9afea1e523}\label{class_s_q_l_aa15a5f52e7c93fbd74b07a9afea1e523}} 
+\index{SQL@{SQL}!addGroup@{addGroup}}
+\index{addGroup@{addGroup}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{addGroup()}{addGroup()}}
+{\footnotesize\ttfamily void S\+Q\+L\+::add\+Group (\begin{DoxyParamCaption}\item[{Q\+String}]{name,  }\item[{Q\+String}]{topic,  }\item[{\mbox{\hyperlink{class_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+
+
+add\+Group -\/ adds a new group to the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em topic} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_q_l_a60e52569efac3c3f2960d55b574d7104}\label{class_s_q_l_a60e52569efac3c3f2960d55b574d7104}} 
+\index{SQL@{SQL}!addSubscription@{addSubscription}}
+\index{addSubscription@{addSubscription}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{addSubscription()}{addSubscription()}}
+{\footnotesize\ttfamily void S\+Q\+L\+::add\+Subscription (\begin{DoxyParamCaption}\item[{Q\+String}]{topic,  }\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user }\end{DoxyParamCaption})}
+
+
+
+add\+Subscription -\/ stores subscription in database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em topic} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_q_l_ab8bc1188d596bc862764acffcb6162df}\label{class_s_q_l_ab8bc1188d596bc862764acffcb6162df}} 
+\index{SQL@{SQL}!addUser@{addUser}}
+\index{addUser@{addUser}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{addUser()}{addUser()}}
+{\footnotesize\ttfamily void S\+Q\+L\+::add\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user,  }\item[{Q\+String}]{password\+Hash }\end{DoxyParamCaption})}
+
+
+
+add\+User -\/ adds a new user to the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+{\em password\+Hash} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_q_l_a43504cbaed0d8a3cfa8e56f4713e35bc}\label{class_s_q_l_a43504cbaed0d8a3cfa8e56f4713e35bc}} 
+\index{SQL@{SQL}!areContacts@{areContacts}}
+\index{areContacts@{areContacts}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{areContacts()}{areContacts()}}
+{\footnotesize\ttfamily bool S\+Q\+L\+::are\+Contacts (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{current\+User,  }\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user }\end{DoxyParamCaption})}
+
+
+
+are\+Contacts -\/ checks if the users are connected 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+User} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_ae71846bd44ba88ddeea504738f2bed2d}\label{class_s_q_l_ae71846bd44ba88ddeea504738f2bed2d}} 
+\index{SQL@{SQL}!getGroupsByTopic@{getGroupsByTopic}}
+\index{getGroupsByTopic@{getGroupsByTopic}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{getGroupsByTopic()}{getGroupsByTopic()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \mbox{\hyperlink{class_chatroom}{Chatroom}} $>$ S\+Q\+L\+::get\+Groups\+By\+Topic (\begin{DoxyParamCaption}\item[{Q\+String}]{topic }\end{DoxyParamCaption})}
+
+
+
+get\+Groups\+By\+Topic -\/ returns the repective user\textquotesingle{}s groups 
+
+
+\begin{DoxyParams}{Parameters}
+{\em topic} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Vector$<$\+Chatroom$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_aebf0ed70245b4999ecb2f725daa80000}\label{class_s_q_l_aebf0ed70245b4999ecb2f725daa80000}} 
+\index{SQL@{SQL}!getMembersByTopic@{getMembersByTopic}}
+\index{getMembersByTopic@{getMembersByTopic}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{getMembersByTopic()}{getMembersByTopic()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \mbox{\hyperlink{class_user}{User}} $>$ S\+Q\+L\+::get\+Members\+By\+Topic (\begin{DoxyParamCaption}\item[{Q\+String}]{topic }\end{DoxyParamCaption})}
+
+
+
+get\+Members\+By\+Topic -\/ returns the members subscribe to the respective topic 
+
+
+\begin{DoxyParams}{Parameters}
+{\em topic} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Vector$<$\+User$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_ae7a2c1a807d5859e3e7f96b7faf47cb2}\label{class_s_q_l_ae7a2c1a807d5859e3e7f96b7faf47cb2}} 
+\index{SQL@{SQL}!getMessageById@{getMessageById}}
+\index{getMessageById@{getMessageById}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{getMessageById()}{getMessageById()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_message}{Message}} $\ast$ S\+Q\+L\+::get\+Message\+By\+Id (\begin{DoxyParamCaption}\item[{Q\+String}]{id }\end{DoxyParamCaption})}
+
+
+
+get\+Message\+By\+Id -\/ returns the message information by id 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_message}{Message}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_a48b812407b764d668fe87c384392f36d}\label{class_s_q_l_a48b812407b764d668fe87c384392f36d}} 
+\index{SQL@{SQL}!getMessagesByTopic@{getMessagesByTopic}}
+\index{getMessagesByTopic@{getMessagesByTopic}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{getMessagesByTopic()}{getMessagesByTopic()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \mbox{\hyperlink{class_message}{Message}} $>$ S\+Q\+L\+::get\+Messages\+By\+Topic (\begin{DoxyParamCaption}\item[{Q\+String}]{topic,  }\item[{int}]{limit = {\ttfamily 30} }\end{DoxyParamCaption})}
+
+
+
+get\+Messages\+By\+Topic -\/ returns the last 30 messages for respective topic 
+
+
+\begin{DoxyParams}{Parameters}
+{\em topic} & \\
+\hline
+{\em limit} & (30 messages) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Vector$<$\+Message$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_a2011b4b68ecbec39f74689ca2f76fcf7}\label{class_s_q_l_a2011b4b68ecbec39f74689ca2f76fcf7}} 
+\index{SQL@{SQL}!getSubscriptionsByUser@{getSubscriptionsByUser}}
+\index{getSubscriptionsByUser@{getSubscriptionsByUser}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{getSubscriptionsByUser()}{getSubscriptionsByUser()}}
+{\footnotesize\ttfamily Q\+Vector$<$ Q\+String $>$ S\+Q\+L\+::get\+Subscriptions\+By\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user }\end{DoxyParamCaption})}
+
+
+
+get\+Subscriptions\+By\+User -\/ returns subscriptions for respective user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Vector$<$\+Q\+String$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_aabd1b6c5dcbf86e562b46a17821c2cdd}\label{class_s_q_l_aabd1b6c5dcbf86e562b46a17821c2cdd}} 
+\index{SQL@{SQL}!getUserByEmail@{getUserByEmail}}
+\index{getUserByEmail@{getUserByEmail}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{getUserByEmail()}{getUserByEmail()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_user}{User}} $\ast$ S\+Q\+L\+::get\+User\+By\+Email (\begin{DoxyParamCaption}\item[{Q\+String}]{email }\end{DoxyParamCaption})}
+
+
+
+get\+User\+By\+Email -\/ returns the user\textquotesingle{}s information by email 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_user}{User}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_a8cfb6cee921922a669a69891ce0c01bd}\label{class_s_q_l_a8cfb6cee921922a669a69891ce0c01bd}} 
+\index{SQL@{SQL}!getUserByUsername@{getUserByUsername}}
+\index{getUserByUsername@{getUserByUsername}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{getUserByUsername()}{getUserByUsername()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_user}{User}} $\ast$ S\+Q\+L\+::get\+User\+By\+Username (\begin{DoxyParamCaption}\item[{Q\+String}]{username }\end{DoxyParamCaption})}
+
+
+
+get\+User\+By\+Username -\/ returns the user\textquotesingle{}s information by username 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_user}{User}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_a2a520dc3e9eabb1d5b0e242a06612c19}\label{class_s_q_l_a2a520dc3e9eabb1d5b0e242a06612c19}} 
+\index{SQL@{SQL}!getUserContacts@{getUserContacts}}
+\index{getUserContacts@{getUserContacts}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{getUserContacts()}{getUserContacts()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \mbox{\hyperlink{class_user}{User}} $>$ S\+Q\+L\+::get\+User\+Contacts (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user }\end{DoxyParamCaption})}
+
+
+
+get\+User\+Contacts -\/ returns vector with the user\textquotesingle{}s contacts 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Vector$<$\+User$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_a3d9201ec3d343ee94f3495d108e7d21d}\label{class_s_q_l_a3d9201ec3d343ee94f3495d108e7d21d}} 
+\index{SQL@{SQL}!getUserDms@{getUserDms}}
+\index{getUserDms@{getUserDms}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{getUserDms()}{getUserDms()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \mbox{\hyperlink{class_chatroom}{Chatroom}} $>$ S\+Q\+L\+::get\+User\+Dms (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user }\end{DoxyParamCaption})}
+
+
+
+get\+User\+Dms -\/ returns the direct messages of the respective user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+Vector$<$\+Chatroom$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_ab18d8fd09be0008908081efe17ae64de}\label{class_s_q_l_ab18d8fd09be0008908081efe17ae64de}} 
+\index{SQL@{SQL}!isGroupAdmin@{isGroupAdmin}}
+\index{isGroupAdmin@{isGroupAdmin}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{isGroupAdmin()}{isGroupAdmin()}}
+{\footnotesize\ttfamily bool S\+Q\+L\+::is\+Group\+Admin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user,  }\item[{Q\+String}]{topic }\end{DoxyParamCaption})}
+
+
+
+is\+Group\+Admin -\/ returns true if the respective user is the group\textquotesingle{}s admin 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+{\em topic} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_a889a46502483804ce4c9aa23ec5b7490}\label{class_s_q_l_a889a46502483804ce4c9aa23ec5b7490}} 
+\index{SQL@{SQL}!isValidLoginByEmail@{isValidLoginByEmail}}
+\index{isValidLoginByEmail@{isValidLoginByEmail}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{isValidLoginByEmail()}{isValidLoginByEmail()}}
+{\footnotesize\ttfamily bool S\+Q\+L\+::is\+Valid\+Login\+By\+Email (\begin{DoxyParamCaption}\item[{Q\+String}]{email,  }\item[{Q\+String}]{password\+Hash }\end{DoxyParamCaption})}
+
+
+
+is\+Valid\+Login\+By\+Email -\/ checks if the login by email is valid 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & \\
+\hline
+{\em password\+Hash} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_acf4529ce08b1bdf3a9df5303f53a2ee3}\label{class_s_q_l_acf4529ce08b1bdf3a9df5303f53a2ee3}} 
+\index{SQL@{SQL}!isValidLoginByUsername@{isValidLoginByUsername}}
+\index{isValidLoginByUsername@{isValidLoginByUsername}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{isValidLoginByUsername()}{isValidLoginByUsername()}}
+{\footnotesize\ttfamily bool S\+Q\+L\+::is\+Valid\+Login\+By\+Username (\begin{DoxyParamCaption}\item[{Q\+String}]{username,  }\item[{Q\+String}]{password\+Hash }\end{DoxyParamCaption})}
+
+
+
+is\+Valid\+Login\+By\+Username -\/ checks if the login by username is valid 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & \\
+\hline
+{\em password\+Hash} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_q_l_a90903f4cd5ff198c2aa53cb41f0b5a52}\label{class_s_q_l_a90903f4cd5ff198c2aa53cb41f0b5a52}} 
+\index{SQL@{SQL}!removeContact@{removeContact}}
+\index{removeContact@{removeContact}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{removeContact()}{removeContact()}}
+{\footnotesize\ttfamily void S\+Q\+L\+::remove\+Contact (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{current\+User,  }\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user }\end{DoxyParamCaption})}
+
+
+
+remove\+Contact -\/ removes the contact for respective user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+User} & \\
+\hline
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_q_l_ae511a452035c26ce9dfd6f5acfd3cd64}\label{class_s_q_l_ae511a452035c26ce9dfd6f5acfd3cd64}} 
+\index{SQL@{SQL}!removeGroup@{removeGroup}}
+\index{removeGroup@{removeGroup}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{removeGroup()}{removeGroup()}}
+{\footnotesize\ttfamily void S\+Q\+L\+::remove\+Group (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_chatroom}{Chatroom}} $\ast$}]{group }\end{DoxyParamCaption})}
+
+
+
+remove\+Group -\/ removes group information from database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_q_l_a33875eeb7b04601694b077dcc4e83f30}\label{class_s_q_l_a33875eeb7b04601694b077dcc4e83f30}} 
+\index{SQL@{SQL}!removeSubscriptions@{removeSubscriptions}}
+\index{removeSubscriptions@{removeSubscriptions}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{removeSubscriptions()}{removeSubscriptions()}}
+{\footnotesize\ttfamily void S\+Q\+L\+::remove\+Subscriptions (\begin{DoxyParamCaption}\item[{Q\+String}]{topic }\end{DoxyParamCaption})}
+
+
+
+remove\+Subscriptions -\/ removes the stored subscription from the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em topic} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_q_l_acf808e9b3ea0f6b8c6e3b3f5301101c4}\label{class_s_q_l_acf808e9b3ea0f6b8c6e3b3f5301101c4}} 
+\index{SQL@{SQL}!updateGroup@{updateGroup}}
+\index{updateGroup@{updateGroup}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{updateGroup()}{updateGroup()}}
+{\footnotesize\ttfamily void S\+Q\+L\+::update\+Group (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_chatroom}{Chatroom}} $\ast$}]{group }\end{DoxyParamCaption})}
+
+
+
+update\+Group -\/ updates the group information 
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_q_l_a23279a7f26932f5638e3f7f3f6c82102}\label{class_s_q_l_a23279a7f26932f5638e3f7f3f6c82102}} 
+\index{SQL@{SQL}!updateUser@{updateUser}}
+\index{updateUser@{updateUser}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{updateUser()}{updateUser()}}
+{\footnotesize\ttfamily void S\+Q\+L\+::update\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user }\end{DoxyParamCaption})}
+
+
+
+update\+User -\/ updates the user information 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_q_l_a2b203a9b5f211ed87f97b28513079568}\label{class_s_q_l_a2b203a9b5f211ed87f97b28513079568}} 
+\index{SQL@{SQL}!validateTopic@{validateTopic}}
+\index{validateTopic@{validateTopic}!SQL@{SQL}}
+\doxysubsubsection{\texorpdfstring{validateTopic()}{validateTopic()}}
+{\footnotesize\ttfamily Q\+String S\+Q\+L\+::validate\+Topic (\begin{DoxyParamCaption}\item[{Q\+String}]{topic }\end{DoxyParamCaption})}
+
+
+
+validate\+Topic -\/ validates the topic name 
+
+
+\begin{DoxyParams}{Parameters}
+{\em topic} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Q\+String 
+\end{DoxyReturn}

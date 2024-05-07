@@ -1,0 +1,8 @@
+.cproject
+.project
+.settings
+.qmake.stash
+*.pro.user
+build/
+build*/
+bin/

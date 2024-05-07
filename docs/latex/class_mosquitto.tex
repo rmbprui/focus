@@ -1,0 +1,101 @@
+\hypertarget{class_mosquitto}{}\doxysection{Mosquitto Class Reference}
+\label{class_mosquitto}\index{Mosquitto@{Mosquitto}}
+
+
+The \mbox{\hyperlink{class_mosquitto}{Mosquitto}} class.  
+
+
+
+
+{\ttfamily \#include $<$mosquitto.\+h$>$}
+
+
+
+Inheritance diagram for Mosquitto\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=145pt]{class_mosquitto__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Mosquitto\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=145pt]{class_mosquitto__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mosquitto_ac2daf08ba315c27f2de802dca40ec83a}{Mosquitto}} (Q\+String host, int port, Q\+String username)
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{class_mosquitto}{Mosquitto}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_mosquitto_abe0497d55f71494a181087fb2d4292f2}\label{class_mosquitto_abe0497d55f71494a181087fb2d4292f2}} 
+Q\+Mqtt\+Client $\ast$ {\bfseries client} () const
+\item 
+void \mbox{\hyperlink{class_mosquitto_ad48023474002ea78e5051e1774e21fd8}{publish}} (Q\+String message, Q\+String topic)
+\begin{DoxyCompactList}\small\item\em publish -\/ publishes a message in a specific topic with mqtt \end{DoxyCompactList}\item 
+Q\+Mqtt\+Subscription $\ast$ \mbox{\hyperlink{class_mosquitto_a4f9c198d4ebb72f8843e1ba62018be71}{subscribe}} (Q\+String topic)
+\begin{DoxyCompactList}\small\item\em subscribe -\/ subscribes to a topic with mqtt \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_mosquitto}{Mosquitto}} class. 
+
+This class is used to process mqtt\textquotesingle{}s features 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mosquitto_ac2daf08ba315c27f2de802dca40ec83a}\label{class_mosquitto_ac2daf08ba315c27f2de802dca40ec83a}} 
+\index{Mosquitto@{Mosquitto}!Mosquitto@{Mosquitto}}
+\index{Mosquitto@{Mosquitto}!Mosquitto@{Mosquitto}}
+\doxysubsubsection{\texorpdfstring{Mosquitto()}{Mosquitto()}}
+{\footnotesize\ttfamily Mosquitto\+::\+Mosquitto (\begin{DoxyParamCaption}\item[{Q\+String}]{host,  }\item[{int}]{port,  }\item[{Q\+String}]{username }\end{DoxyParamCaption})}
+
+
+
+Constructor for \mbox{\hyperlink{class_mosquitto}{Mosquitto}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em port} & \\
+\hline
+{\em username} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mosquitto_ad48023474002ea78e5051e1774e21fd8}\label{class_mosquitto_ad48023474002ea78e5051e1774e21fd8}} 
+\index{Mosquitto@{Mosquitto}!publish@{publish}}
+\index{publish@{publish}!Mosquitto@{Mosquitto}}
+\doxysubsubsection{\texorpdfstring{publish()}{publish()}}
+{\footnotesize\ttfamily void Mosquitto\+::publish (\begin{DoxyParamCaption}\item[{Q\+String}]{message,  }\item[{Q\+String}]{topic }\end{DoxyParamCaption})}
+
+
+
+publish -\/ publishes a message in a specific topic with mqtt 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & \\
+\hline
+{\em topic} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_mosquitto_a4f9c198d4ebb72f8843e1ba62018be71}\label{class_mosquitto_a4f9c198d4ebb72f8843e1ba62018be71}} 
+\index{Mosquitto@{Mosquitto}!subscribe@{subscribe}}
+\index{subscribe@{subscribe}!Mosquitto@{Mosquitto}}
+\doxysubsubsection{\texorpdfstring{subscribe()}{subscribe()}}
+{\footnotesize\ttfamily Q\+Mqtt\+Subscription $\ast$ Mosquitto\+::subscribe (\begin{DoxyParamCaption}\item[{Q\+String}]{topic }\end{DoxyParamCaption})}
+
+
+
+subscribe -\/ subscribes to a topic with mqtt 
+
+
+\begin{DoxyParams}{Parameters}
+{\em topic} & \\
+\hline
+\end{DoxyParams}

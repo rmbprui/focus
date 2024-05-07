@@ -1,0 +1,110 @@
+\hypertarget{class_auth}{}\doxysection{Auth Class Reference}
+\label{class_auth}\index{Auth@{Auth}}
+
+
+The \mbox{\hyperlink{class_auth}{Auth}} class.  
+
+
+
+
+{\ttfamily \#include $<$auth.\+h$>$}
+
+
+
+Inheritance diagram for Auth\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{class_auth__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Auth\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{class_auth__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_auth_a7f4fb177fb789061fa79f7093be0a93b}{Auth}} (\mbox{\hyperlink{class_s_q_l}{S\+QL}} $\ast$sql, Q\+Widget $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{class_auth}{Auth}}. \end{DoxyCompactList}\item 
+Q\+String \mbox{\hyperlink{class_auth_ad9f7185bef0b3985aed7e01c1a5479de}{validate\+Login}} (Q\+String email, Q\+String password, Q\+String encrypted\+Password)
+\begin{DoxyCompactList}\small\item\em validate\+Login -\/ validates the credentials provided by the user and checks if it is a valid login \end{DoxyCompactList}\item 
+Q\+String \mbox{\hyperlink{class_auth_aeaa521cd1216a3bfc24012b6c457a956}{validate\+Register}} (\mbox{\hyperlink{class_user}{User}} $\ast$user, Q\+String password, Q\+String confirm\+Password)
+\begin{DoxyCompactList}\small\item\em validate\+Register -\/ validates the information provided by the user \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_auth}{Auth}} class. 
+
+This class is used to create the authentication page 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_auth_a7f4fb177fb789061fa79f7093be0a93b}\label{class_auth_a7f4fb177fb789061fa79f7093be0a93b}} 
+\index{Auth@{Auth}!Auth@{Auth}}
+\index{Auth@{Auth}!Auth@{Auth}}
+\doxysubsubsection{\texorpdfstring{Auth()}{Auth()}}
+{\footnotesize\ttfamily Auth\+::\+Auth (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_s_q_l}{S\+QL}} $\ast$}]{sql,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructor for \mbox{\hyperlink{class_auth}{Auth}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sql} & \\
+\hline
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_auth_ad9f7185bef0b3985aed7e01c1a5479de}\label{class_auth_ad9f7185bef0b3985aed7e01c1a5479de}} 
+\index{Auth@{Auth}!validateLogin@{validateLogin}}
+\index{validateLogin@{validateLogin}!Auth@{Auth}}
+\doxysubsubsection{\texorpdfstring{validateLogin()}{validateLogin()}}
+{\footnotesize\ttfamily Q\+String Auth\+::validate\+Login (\begin{DoxyParamCaption}\item[{Q\+String}]{email,  }\item[{Q\+String}]{password,  }\item[{Q\+String}]{encrypted\+Password }\end{DoxyParamCaption})}
+
+
+
+validate\+Login -\/ validates the credentials provided by the user and checks if it is a valid login 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & \\
+\hline
+{\em password} & \\
+\hline
+{\em encrypted\+Password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_auth_aeaa521cd1216a3bfc24012b6c457a956}\label{class_auth_aeaa521cd1216a3bfc24012b6c457a956}} 
+\index{Auth@{Auth}!validateRegister@{validateRegister}}
+\index{validateRegister@{validateRegister}!Auth@{Auth}}
+\doxysubsubsection{\texorpdfstring{validateRegister()}{validateRegister()}}
+{\footnotesize\ttfamily Q\+String Auth\+::validate\+Register (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user,  }\item[{Q\+String}]{password,  }\item[{Q\+String}]{confirm\+Password }\end{DoxyParamCaption})}
+
+
+
+validate\+Register -\/ validates the information provided by the user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & \\
+\hline
+{\em password} & \\
+\hline
+{\em confirm\+Password} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}

@@ -1,0 +1,90 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Focus}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Project}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}References}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Add\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}User Class Reference}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{8}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Constructor \& Destructor Documentation}{8}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}AddUser()}{8}{subsubsection.4.1.2.1}%
+\contentsline {section}{\numberline {4.2}Auth Class Reference}{8}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{9}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Constructor \& Destructor Documentation}{9}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Auth()}{10}{subsubsection.4.2.2.1}%
+\contentsline {subsection}{\numberline {4.2.3}Member Function Documentation}{10}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}validateLogin()}{10}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}validateRegister()}{10}{subsubsection.4.2.3.2}%
+\contentsline {section}{\numberline {4.3}Chatroom Class Reference}{11}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{11}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Constructor \& Destructor Documentation}{11}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Chatroom()}{11}{subsubsection.4.3.2.1}%
+\contentsline {section}{\numberline {4.4}Chatroom\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{12}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{13}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Constructor \& Destructor Documentation}{13}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}ChatroomWindow()}{13}{subsubsection.4.4.2.1}%
+\contentsline {subsection}{\numberline {4.4.3}Member Function Documentation}{13}{subsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.3.1}loadChatroom()}{13}{subsubsection.4.4.3.1}%
+\contentsline {section}{\numberline {4.5}Edit\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Profile Class Reference}{14}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{15}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Constructor \& Destructor Documentation}{15}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}EditProfile()}{15}{subsubsection.4.5.2.1}%
+\contentsline {section}{\numberline {4.6}Main\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window Class Reference}{15}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{16}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Constructor \& Destructor Documentation}{16}{subsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}MainWindow()}{16}{subsubsection.4.6.2.1}%
+\contentsline {subsection}{\numberline {4.6.3}Member Function Documentation}{17}{subsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.1}newChatroomWindow()}{17}{subsubsection.4.6.3.1}%
+\contentsline {section}{\numberline {4.7}Message Class Reference}{17}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{18}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Constructor \& Destructor Documentation}{18}{subsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}Message()}{18}{subsubsection.4.7.2.1}%
+\contentsline {section}{\numberline {4.8}Mosquitto Class Reference}{18}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{19}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Constructor \& Destructor Documentation}{19}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}Mosquitto()}{19}{subsubsection.4.8.2.1}%
+\contentsline {subsection}{\numberline {4.8.3}Member Function Documentation}{20}{subsection.4.8.3}%
+\contentsline {subsubsection}{\numberline {4.8.3.1}publish()}{20}{subsubsection.4.8.3.1}%
+\contentsline {subsubsection}{\numberline {4.8.3.2}subscribe()}{20}{subsubsection.4.8.3.2}%
+\contentsline {section}{\numberline {4.9}Profile Class Reference}{20}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{21}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Constructor \& Destructor Documentation}{21}{subsection.4.9.2}%
+\contentsline {subsubsection}{\numberline {4.9.2.1}Profile()}{22}{subsubsection.4.9.2.1}%
+\contentsline {section}{\numberline {4.10}Save\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Group Class Reference}{22}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{23}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Constructor \& Destructor Documentation}{23}{subsection.4.10.2}%
+\contentsline {subsubsection}{\numberline {4.10.2.1}SaveGroup()}{23}{subsubsection.4.10.2.1}%
+\contentsline {section}{\numberline {4.11}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}QL Class Reference}{24}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{25}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Member Function Documentation}{25}{subsection.4.11.2}%
+\contentsline {subsubsection}{\numberline {4.11.2.1}addContactByUsername()}{25}{subsubsection.4.11.2.1}%
+\contentsline {subsubsection}{\numberline {4.11.2.2}addGroup()}{25}{subsubsection.4.11.2.2}%
+\contentsline {subsubsection}{\numberline {4.11.2.3}addSubscription()}{26}{subsubsection.4.11.2.3}%
+\contentsline {subsubsection}{\numberline {4.11.2.4}addUser()}{26}{subsubsection.4.11.2.4}%
+\contentsline {subsubsection}{\numberline {4.11.2.5}areContacts()}{26}{subsubsection.4.11.2.5}%
+\contentsline {subsubsection}{\numberline {4.11.2.6}getGroupsByTopic()}{27}{subsubsection.4.11.2.6}%
+\contentsline {subsubsection}{\numberline {4.11.2.7}getMembersByTopic()}{27}{subsubsection.4.11.2.7}%
+\contentsline {subsubsection}{\numberline {4.11.2.8}getMessageById()}{27}{subsubsection.4.11.2.8}%
+\contentsline {subsubsection}{\numberline {4.11.2.9}getMessagesByTopic()}{28}{subsubsection.4.11.2.9}%
+\contentsline {subsubsection}{\numberline {4.11.2.10}getSubscriptionsByUser()}{28}{subsubsection.4.11.2.10}%
+\contentsline {subsubsection}{\numberline {4.11.2.11}getUserByEmail()}{29}{subsubsection.4.11.2.11}%
+\contentsline {subsubsection}{\numberline {4.11.2.12}getUserByUsername()}{29}{subsubsection.4.11.2.12}%
+\contentsline {subsubsection}{\numberline {4.11.2.13}getUserContacts()}{29}{subsubsection.4.11.2.13}%
+\contentsline {subsubsection}{\numberline {4.11.2.14}getUserDms()}{30}{subsubsection.4.11.2.14}%
+\contentsline {subsubsection}{\numberline {4.11.2.15}isGroupAdmin()}{30}{subsubsection.4.11.2.15}%
+\contentsline {subsubsection}{\numberline {4.11.2.16}isValidLoginByEmail()}{30}{subsubsection.4.11.2.16}%
+\contentsline {subsubsection}{\numberline {4.11.2.17}isValidLoginByUsername()}{31}{subsubsection.4.11.2.17}%
+\contentsline {subsubsection}{\numberline {4.11.2.18}removeContact()}{31}{subsubsection.4.11.2.18}%
+\contentsline {subsubsection}{\numberline {4.11.2.19}removeGroup()}{31}{subsubsection.4.11.2.19}%
+\contentsline {subsubsection}{\numberline {4.11.2.20}removeSubscriptions()}{32}{subsubsection.4.11.2.20}%
+\contentsline {subsubsection}{\numberline {4.11.2.21}updateGroup()}{32}{subsubsection.4.11.2.21}%
+\contentsline {subsubsection}{\numberline {4.11.2.22}updateUser()}{32}{subsubsection.4.11.2.22}%
+\contentsline {subsubsection}{\numberline {4.11.2.23}validateTopic()}{33}{subsubsection.4.11.2.23}%
+\contentsline {section}{\numberline {4.12}User Class Reference}{33}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{33}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Constructor \& Destructor Documentation}{33}{subsection.4.12.2}%
+\contentsline {subsubsection}{\numberline {4.12.2.1}User()}{33}{subsubsection.4.12.2.1}%
+\contentsline {chapter}{Index}{35}{section*.30}%

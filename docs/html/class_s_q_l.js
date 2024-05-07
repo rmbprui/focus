@@ -1,0 +1,28 @@
+var class_s_q_l =
+[
+    [ "SQL", "class_s_q_l.html#ab6a6b70a8fad45c14460c7f8ab2e040b", null ],
+    [ "addContactByUsername", "class_s_q_l.html#a5b274d70bc27cf6c81d610b84d922d05", null ],
+    [ "addGroup", "class_s_q_l.html#aa15a5f52e7c93fbd74b07a9afea1e523", null ],
+    [ "addMessage", "class_s_q_l.html#a241d733054b11f552d2e5b0b6ae85e62", null ],
+    [ "addSubscription", "class_s_q_l.html#a60e52569efac3c3f2960d55b574d7104", null ],
+    [ "addUser", "class_s_q_l.html#ab8bc1188d596bc862764acffcb6162df", null ],
+    [ "areContacts", "class_s_q_l.html#a43504cbaed0d8a3cfa8e56f4713e35bc", null ],
+    [ "getGroupsByTopic", "class_s_q_l.html#ae71846bd44ba88ddeea504738f2bed2d", null ],
+    [ "getMembersByTopic", "class_s_q_l.html#aebf0ed70245b4999ecb2f725daa80000", null ],
+    [ "getMessageById", "class_s_q_l.html#ae7a2c1a807d5859e3e7f96b7faf47cb2", null ],
+    [ "getMessagesByTopic", "class_s_q_l.html#a48b812407b764d668fe87c384392f36d", null ],
+    [ "getSubscriptionsByUser", "class_s_q_l.html#a2011b4b68ecbec39f74689ca2f76fcf7", null ],
+    [ "getUserByEmail", "class_s_q_l.html#aabd1b6c5dcbf86e562b46a17821c2cdd", null ],
+    [ "getUserByUsername", "class_s_q_l.html#a8cfb6cee921922a669a69891ce0c01bd", null ],
+    [ "getUserContacts", "class_s_q_l.html#a2a520dc3e9eabb1d5b0e242a06612c19", null ],
+    [ "getUserDms", "class_s_q_l.html#a3d9201ec3d343ee94f3495d108e7d21d", null ],
+    [ "isGroupAdmin", "class_s_q_l.html#ab18d8fd09be0008908081efe17ae64de", null ],
+    [ "isValidLoginByEmail", "class_s_q_l.html#a889a46502483804ce4c9aa23ec5b7490", null ],
+    [ "isValidLoginByUsername", "class_s_q_l.html#acf4529ce08b1bdf3a9df5303f53a2ee3", null ],
+    [ "removeContact", "class_s_q_l.html#a90903f4cd5ff198c2aa53cb41f0b5a52", null ],
+    [ "removeGroup", "class_s_q_l.html#ae511a452035c26ce9dfd6f5acfd3cd64", null ],
+    [ "removeSubscriptions", "class_s_q_l.html#a33875eeb7b04601694b077dcc4e83f30", null ],
+    [ "updateGroup", "class_s_q_l.html#acf808e9b3ea0f6b8c6e3b3f5301101c4", null ],
+    [ "updateUser", "class_s_q_l.html#a23279a7f26932f5638e3f7f3f6c82102", null ],
+    [ "validateTopic", "class_s_q_l.html#a2b203a9b5f211ed87f97b28513079568", null ]
+];

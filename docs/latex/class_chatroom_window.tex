@@ -1,0 +1,94 @@
+\hypertarget{class_chatroom_window}{}\doxysection{Chatroom\+Window Class Reference}
+\label{class_chatroom_window}\index{ChatroomWindow@{ChatroomWindow}}
+
+
+The \mbox{\hyperlink{class_chatroom}{Chatroom}} class.  
+
+
+
+
+{\ttfamily \#include $<$chatroomwindow.\+h$>$}
+
+
+
+Inheritance diagram for Chatroom\+Window\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{class_chatroom_window__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Chatroom\+Window\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{class_chatroom_window__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_chatroom_window_ae1f2b9c9015747fd27a3c506eef439dc}{Chatroom\+Window}} (\mbox{\hyperlink{class_chatroom}{Chatroom}} chatroom, \mbox{\hyperlink{class_mosquitto}{Mosquitto}} $\ast$main\+Client, \mbox{\hyperlink{class_s_q_l}{S\+QL}} $\ast$sql, \mbox{\hyperlink{class_user}{User}} $\ast$user, Q\+Widget $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{class_chatroom_window}{Chatroom\+Window}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_chatroom_window_a502953d220ea476ac63c9de1d3b4b620}\label{class_chatroom_window_a502953d220ea476ac63c9de1d3b4b620}} 
+void \mbox{\hyperlink{class_chatroom_window_a502953d220ea476ac63c9de1d3b4b620}{load\+Messages}} ()
+\begin{DoxyCompactList}\small\item\em load\+Messages -\/ loads the messages for the respective chatroom \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_chatroom_window_a00a32e79e9fd6af486417b773b3998b0}\label{class_chatroom_window_a00a32e79e9fd6af486417b773b3998b0}} 
+void \mbox{\hyperlink{class_chatroom_window_a00a32e79e9fd6af486417b773b3998b0}{load\+Members}} ()
+\begin{DoxyCompactList}\small\item\em load\+Members -\/ loads the members for the respective chatroom \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_chatroom_window_a544c87b378128e9407efcbbb3624cc40}{load\+Chatroom}} (\mbox{\hyperlink{class_chatroom}{Chatroom}} chatroom)
+\begin{DoxyCompactList}\small\item\em load\+Chatroom -\/ loads the chatroom information \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_chatroom_window_ac982573452356f9c995d6aa5f76df2c1}\label{class_chatroom_window_ac982573452356f9c995d6aa5f76df2c1}} 
+void {\bfseries on\+Message\+Received} (const Q\+Mqtt\+Message \&msg)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_chatroom}{Chatroom}} class. 
+
+This class is used to create the chatroom windows with Q\+Widget 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_chatroom_window_ae1f2b9c9015747fd27a3c506eef439dc}\label{class_chatroom_window_ae1f2b9c9015747fd27a3c506eef439dc}} 
+\index{ChatroomWindow@{ChatroomWindow}!ChatroomWindow@{ChatroomWindow}}
+\index{ChatroomWindow@{ChatroomWindow}!ChatroomWindow@{ChatroomWindow}}
+\doxysubsubsection{\texorpdfstring{ChatroomWindow()}{ChatroomWindow()}}
+{\footnotesize\ttfamily Chatroom\+Window\+::\+Chatroom\+Window (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_chatroom}{Chatroom}}}]{chatroom,  }\item[{\mbox{\hyperlink{class_mosquitto}{Mosquitto}} $\ast$}]{main\+Client,  }\item[{\mbox{\hyperlink{class_s_q_l}{S\+QL}} $\ast$}]{sql,  }\item[{\mbox{\hyperlink{class_user}{User}} $\ast$}]{user,  }\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructor for \mbox{\hyperlink{class_chatroom_window}{Chatroom\+Window}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chatroom} & \\
+\hline
+{\em main\+Client} & \\
+\hline
+{\em sql} & \\
+\hline
+{\em user} & \\
+\hline
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_chatroom_window_a544c87b378128e9407efcbbb3624cc40}\label{class_chatroom_window_a544c87b378128e9407efcbbb3624cc40}} 
+\index{ChatroomWindow@{ChatroomWindow}!loadChatroom@{loadChatroom}}
+\index{loadChatroom@{loadChatroom}!ChatroomWindow@{ChatroomWindow}}
+\doxysubsubsection{\texorpdfstring{loadChatroom()}{loadChatroom()}}
+{\footnotesize\ttfamily void Chatroom\+Window\+::load\+Chatroom (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_chatroom}{Chatroom}}}]{chatroom }\end{DoxyParamCaption})}
+
+
+
+load\+Chatroom -\/ loads the chatroom information 
+
+
+\begin{DoxyParams}{Parameters}
+{\em chatroom} & \\
+\hline
+\end{DoxyParams}
